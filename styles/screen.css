@@ -1,0 +1,150 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: #003049;
+    background: #669bbc;
+    padding: 0 40px;
+    text-align: center;
+}
+
+nav {
+    margin: 40px auto 0 auto;
+    width: 400px;
+    border-radius: 50px;
+    background: #780000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: #EAE8FF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 8em;
+    letter-spacing: -2px;
+}
+
+img.about {
+    opacity: 0.5;
+}
+
+.thing {
+  display: flex;
+  align-items: center;
+  background-color: #fdf0d5;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 1rem 0;
+  max-width: 600px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thing:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.thing img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.thing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thing-text h2 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.thing-text p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.indiv-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/** Large thing cards **/
+
+.thing-large {
+  display: flex;
+  align-items: center;
+  background-color: #fdf0d5;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  max-width: 600px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thing-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.thing-large img {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.thing-text-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left
+}
+
+.thing-text-large h2 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.thing-text-large p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.indiv-page-content-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
